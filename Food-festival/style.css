@@ -1,0 +1,227 @@
+/*The Navbar */
+.upper_page {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Navbar links */
+.upper_page a {
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+.upper_page a:hover {
+    background-color:lime;
+    color:white;
+}
+
+.guests{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 0 0 50px 0;
+    
+}
+
+.guest_head{
+    text-align: center;
+}
+
+.guest_master{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 40px;
+}
+
+/*How the guest boxs stack up*/
+.guest_master div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.guest_master img{
+    margin: 1px 0 0 0;
+}
+/*This is the color of the guest div's*/
+.guest-1 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: red;
+}
+
+.guest-2 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: yellow;
+}
+
+.guest-3 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: orange;
+}
+
+.guest-4 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: yellowgreen;
+}
+
+.guest-5 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: greenyellow;
+}
+
+.guest-6 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: red;
+}
+
+.guest-7 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: yellow;
+}
+
+.guest-8 .day{
+    padding: 16px 16px 16px 4px;
+    margin: 0;
+    background-color: orange;
+}
+
+.name{
+    margin: 20px 0 4px 10px;
+}
+
+.guests time{
+    margin: 0 0 26px 10px;
+}
+
+.program_head{
+    text-align: center;
+}
+
+.program_wrap{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.schedule nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.saturday_master{
+    display: flex;
+    flex-direction: column;
+}
+
+.sunday_master{
+    display: flex;
+    flex-direction: column;
+}
+
+.time_master{
+    display: flex;
+}
+
+.time-numb1{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb2{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb3{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb4{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb5{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb6{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb7{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb8{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb9{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb10{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb11{
+    display: flex;
+    align-items: center;
+}
+
+.time-numb12{
+    display: flex;
+    align-items: center;
+}
+
+.time_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.time_text h3{
+    margin: 0 0 5px 0;
+}
+
+.time_text p{
+    margin: 0 0 15px 0;
+}
+
+.orders{
+    
+    background-color: limegreen;
+}
+
+.orders_title{
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.kontakt{
+    flex-direction: column;
+}
+
+.sponsorer{
+    background-color: darkslategray
+}

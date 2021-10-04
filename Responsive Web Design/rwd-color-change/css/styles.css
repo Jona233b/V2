@@ -1,0 +1,16 @@
+body{
+    background-color: black
+}
+
+.tophead{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.box{
+    width: 400px;
+   height: 400px;
+   background: red;
+
+}

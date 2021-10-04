@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    color: white;
+    background: purple;
+}
+
+div h1{
+    height: 200px;
+    width: 200px;
+    transition: 1000ms;
+    background-color: red;
+}
+
+.element_4{
+    background-color: red;
+    transition: background-color 2000ms,
+                border-radius 2000ms 2000ms,
+                border 1000ms 4000ms;
+}
+
+.element_1:hover{
+    background: green;
+}
+.element_2:hover{
+    width: 400px;
+    background: black;
+    transition: 500ms;
+}
+.element_3:hover{
+    background: yellow;
+    color: black;
+    transform: rotate(180deg);
+    transition: 700ms;
+}
+.element_4:hover{
+    background-color: blue;
+    border-radius: 100px;
+    padding: 0; 
+    width: 200px;
+    height: 200px;
+    border: greenyellow;
+    border-style: solid;
+    border-width: 10px;
+}

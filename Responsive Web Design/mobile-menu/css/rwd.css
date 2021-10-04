@@ -1,0 +1,11 @@
+@media (max-width: 720px){
+    body{
+        background-color: green
+    }
+    .menu{
+        max-width: 720px;
+    }
+    input{
+        display: flexbox;
+    }
+}

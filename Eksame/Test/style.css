@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 50px;
+}
+
+.head-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: none;
+}
+
+.hero-animation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+    background-color: blue;
+}
+
+.tjenester{
+    text-align: center;
+}
+
+.om-bring{
+    background-color: orange;
+    text-align: center;
+    height: 650px;
+}
+
+.e-handel{
+    text-align: center;
+    color: white;
+    background-color: yellowgreen;
+    height: 650px;
+}
+
+.modtagerservivice{
+    text-align: center;
+    height: 650px;
+}
+
+.kundeservice{
+    text-align: center;
+    background-color: orange;
+}
+
+.jobsøgning{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+footer{
+    background-color: darkgrey;
+}
